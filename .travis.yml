@@ -6,7 +6,7 @@ deploy:
     revision_type: github
     access_key_id: "AKIAI37XCNC3TUXWWKEA"
     secret_access_key: "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"
-    bucket: "myphotobin"
+    bucket: "ad440uoloadhost"
     skip_cleanup: true
     acl: public_read
     region: "us-west-2"
