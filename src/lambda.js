@@ -12,9 +12,5 @@ export default {
       .then((res) => {
         return Promise.resolve(res.data.url || '/')
       })
-      .catch((err) => {
-        console (err)
-        return Promise.reject('/')
-      })
   }
 }

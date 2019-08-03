@@ -11,9 +11,10 @@
 <script>
 import Dropzone from 'dropzone'
 import '../../node_modules/dropzone/dist/dropzone.css'
-import lambda from '../../src/lambda'
+import lambda from '../lambda'
 
 Dropzone.autoDiscover = false
+
 export default {
   name: 'dropzone',
   mounted () {
@@ -69,7 +70,7 @@ export default {
 primaryBlue = #3498db
 form.dropzone
   transition all 0.2s linear
-  border 2px dashed #cccccc
+  border 2px dashed #ccc
   background-color #fafafa
   min-height initial
   &:hover
