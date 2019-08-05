@@ -2,7 +2,7 @@ import axios from 'axios'
 import config from './config'
 
 export default {
-  getSignedURL (file) {
+  async getSignedURL (file) {
     let endpoint = config.AWS_LAMBDA_GETSIGNEDURL_ENDPOINT
     let payload = {
       filePath: file.name,
