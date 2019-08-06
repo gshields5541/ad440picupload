@@ -37,6 +37,7 @@ export default {
       uploadMultiple: false,
       // Content-Type should be included, otherwise you'll get a signature
       // mismatch error from S3. We're going to update this for each file.
+      
       header: '',
       // Customize the wording
       dictDefaultMessage: document.querySelector('#dropzone-message').innerHTML,
